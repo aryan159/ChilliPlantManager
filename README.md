@@ -1,6 +1,9 @@
 # ChilliPlantManager
 A program to count the number of red chillies on a chilli plant
 
+# Environment Setup
+I used the anaconda interpreter since I was easily able to import numpy and cv2 through it
+
 # Thought process
 
 <img src="https://user-images.githubusercontent.com/33245117/109410579-be717180-79d6-11eb-8212-32cb6c1629af.jpeg" width="400" height="533">
@@ -12,8 +15,9 @@ Have a microcontroller with a camera module take photos of the plant everyday at
 
 # Counting the Chillies
 
-![image](https://user-images.githubusercontent.com/33245117/109419800-2ee5b600-7a0a-11eb-936a-fca916665f20.png)
-![image](https://user-images.githubusercontent.com/33245117/109419772-12e21480-7a0a-11eb-87a0-b67e49051885.png)
+![Screenshot 2021-06-29 005820](https://user-images.githubusercontent.com/33245117/123676828-ff8b6c80-d876-11eb-8d1e-e459fc7eb458.png)
+![Screenshot 2021-06-29 010022](https://user-images.githubusercontent.com/33245117/123676842-02865d00-d877-11eb-94c1-3801384d7f69.png)
+
 
 
 # Learnings

@@ -16,11 +16,11 @@ Initially I tried to find the chillies by extracting the raw RGB data, but to no
 <img src="https://user-images.githubusercontent.com/33245117/145162810-b5f87234-93ef-473d-bf3f-01a463a811fa.png" width="318" height="281">
 Using this colour system, it was much easier to single out the red chillies.
 
-The first part of my code sets the thresholds for desired Hue, Saturation and Value values to single out the red pixels
+In the first part of the code, the user slides the thresholds for desired Hue, Saturation and Value values until the red pixels are singled out
 
 <img src="https://user-images.githubusercontent.com/33245117/123677635-f4850c00-d877-11eb-9e0e-7037577b7a42.png" width="800" height="500">
 
-Then based on those values, the program is able to group them together and evalutate their size to see if they are valid chillies
+Then based on those values, the program generates a 2d array with all the red pixels marked. The red pixels are then grouped together by proximity using an algorithm that goes through the entire array, finds the red pixels, scans around the current red pixel to find more red pixels and then scans around those newly found red pixels until all red pixels have been grouped together in their own groups (chillies)
 
 ![Screenshot 2021-06-29 005820](https://user-images.githubusercontent.com/33245117/123676828-ff8b6c80-d876-11eb-8d1e-e459fc7eb458.png)
 ![Screenshot 2021-06-29 010022](https://user-images.githubusercontent.com/33245117/123676842-02865d00-d877-11eb-94c1-3801384d7f69.png)

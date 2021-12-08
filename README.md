@@ -4,14 +4,19 @@ A program to count the number of red chillies on a chilli plant
 # Environment Setup
 I used the anaconda interpreter since I was easily able to import numpy and cv2 through it
 
-# Thought process
+# Inspiration
 
 <img src="https://user-images.githubusercontent.com/33245117/109410579-be717180-79d6-11eb-8212-32cb6c1629af.jpeg" width="400" height="533">
 This is the chilli plant that my brother recently brought home. He would monitor it everyday, count the number of red chillies and green chillies and see if any of them are ripe enough for picking. I knew that, like all 14 year olds, he was eventually going to lose interest so I decided to see if I could create a program to do it.
 
 
 # Counting the Chillies
-We first use HSV values to single out the red pixels that we are interested in
+Initially I tried to find the chillies by extracting the raw RGB data, but to no avail. I then stumbled upon an alternative to the RGB model called HSV (Hue, Saturation, Value)
+
+![image](https://user-images.githubusercontent.com/33245117/145162810-b5f87234-93ef-473d-bf3f-01a463a811fa.png)
+Using this colour system, it was much easier to single out the red chillies.
+
+The first part of my code sets the thresholds for desired Hue, Saturation and Value values to single out the red pixels
 
 <img src="https://user-images.githubusercontent.com/33245117/123677635-f4850c00-d877-11eb-9e0e-7037577b7a42.png" width="800" height="500">
 

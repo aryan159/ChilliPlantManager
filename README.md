@@ -25,6 +25,8 @@ Then based on those values, the program generates a 2d array with all the red pi
 ![Screenshot 2021-06-29 005820](https://user-images.githubusercontent.com/33245117/123676828-ff8b6c80-d876-11eb-8d1e-e459fc7eb458.png)
 ![Screenshot 2021-06-29 010022](https://user-images.githubusercontent.com/33245117/123676842-02865d00-d877-11eb-94c1-3801384d7f69.png)
 
+The program then outputs the initial input image with white numberings showing where all the chiilies are. (You might have to look closely to see the white annotations) The program was able to find every chilli and counted the chillies correctly even when they were "cut" in half by a green branch
+
 # Learnings
 
 ![image](https://user-images.githubusercontent.com/33245117/109413756-14034980-79ea-11eb-9dad-334917e54911.png)

@@ -13,6 +13,7 @@ This is the chilli plant that my brother recently brought home. He would monitor
 # Counting the Chillies
 Initially I tried to find the chillies by extracting the raw RGB data, but to no avail. I then stumbled upon an alternative to the RGB model called HSV (Hue, Saturation, Value)
 
+<img src="https://user-images.githubusercontent.com/33245117/145162810-b5f87234-93ef-473d-bf3f-01a463a811fa.png" width="212" height="187">
 ![image](https://user-images.githubusercontent.com/33245117/145162810-b5f87234-93ef-473d-bf3f-01a463a811fa.png)
 Using this colour system, it was much easier to single out the red chillies.
 
